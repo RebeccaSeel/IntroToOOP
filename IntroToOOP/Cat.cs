@@ -47,6 +47,8 @@ namespace IntroToOOP
 
         public Cat() //constructor
         {
+            this.age = 1;
+            this.name = "Kitty";
             //This is an example of a default contructor. A default contructor take no arguments/parameters
             //method that allows us to create cat object in main method
             //refers back to Cat mittens = new Cat() in the Program.cs
