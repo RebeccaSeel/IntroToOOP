@@ -70,10 +70,25 @@ namespace IntroToOOP
         }
 
         //2 methods
+        public void BattleNemesis()
+        {
+            this.StrengthLevel -= 10; //strength level reduces by 10 during battle
+            this.HasCape = false; //got ripped off in battle
+            this.Costume = "tattered"; //costume gets ripped during battle
+        }
 
+        //public void GetHealthy(string costume, int strengthLevel)
+        //{
+        //    this.Costume = costume;
+        //    this.StrengthLevel = strengthLevel;
+        //}
 
-
-
-
+        public void AllyGained()
+        {
+            this.StrengthLevel += 10;
+            this.HasCape = false; //friends don't let friends where capes
+            Console.WriteLine("Thank you for being a friend.");
+        }
+        
     }
 }
