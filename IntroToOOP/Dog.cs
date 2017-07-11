@@ -12,6 +12,7 @@ namespace IntroToOOP
         //Your dog class should have fields for hair length, height, running speed, and weight
         //Your class should have the following behaviors: run, bark, potty, cuddle
         //should have at least one constructor
+        //following are fields
         private int hairLength;
         private int height;
         private int runningSpeed;
